@@ -1,0 +1,12 @@
+{
+  "stage": "pre-application-code",
+  "approved": "SUCCESSORS.md 2026-10-05 04:05",
+  "sha256": {
+    "SCHEMA.md": "c0faed4656bb9629a06402c305bd2010ca5cc030a04f93d95b0c65142985a4af",
+    "tests/hand-oracles.json": "9593f511aa08f4f0463d6d8dbd1437392a8c2f6634b931ec3cf24157745b9c60",
+    "examples/defined.json": "985a7570e8488a1303fc9f9f66844f9c975dc4680eb1f79101d711bd29ef3dd7",
+    "examples/mixed.json": "85b628805f4c71b29b04c5933197a3c528412f88d65f045025797dac318dd7e3",
+    "examples/empty.json": "750ed907d3e74eb3827fd983d58594b82c1711beae085efb7843bb88beb7492b",
+    "examples/invalid-late.json": "b63af8d0dc3d73fff85af6fcd28492781d459b61dd76c84d5e20c4c3bb6a8800"
+  }
+}

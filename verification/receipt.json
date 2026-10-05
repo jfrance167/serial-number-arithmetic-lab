@@ -1,0 +1,76 @@
+{
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "checks": {
+    "half-forced-order": {
+      "exit": 1,
+      "assertion_failures": 10,
+      "intended_assertion_failed": true
+    },
+    "increment-half-admitted": {
+      "exit": 1,
+      "assertion_failures": 7,
+      "intended_assertion_failed": true
+    },
+    "chain-collapsed-to-sum": {
+      "exit": 1,
+      "assertion_failures": 7,
+      "intended_assertion_failed": true
+    },
+    "normal": {
+      "exit": 0
+    },
+    "optimized": {
+      "exit": 0
+    },
+    "compile": {
+      "exit": 0
+    },
+    "bandit": {
+      "exit": 0
+    }
+  },
+  "demos": {
+    "defined.json": {
+      "exit": 0,
+      "rows": 3,
+      "status": "defined"
+    },
+    "empty.json": {
+      "exit": 0,
+      "rows": 0,
+      "status": "defined"
+    },
+    "invalid-late.json": {
+      "exit": 2,
+      "rows": null,
+      "status": null
+    },
+    "mixed.json": {
+      "exit": 3,
+      "rows": 4,
+      "status": "contains_undefined"
+    }
+  },
+  "stress": {
+    "input_bytes": 10809,
+    "output_bytes": 74934,
+    "rows": 64,
+    "chain_steps": 256,
+    "output_cap": 262144,
+    "within_cap": true
+  },
+  "frozen_verified": true,
+  "source_restored": true,
+  "sha256": {
+    "serial_lab.py": "9df8c7650a41202f34c8c044caca25870fe3a31d4a443aee01319710eaaee4b1",
+    "tests/test_serial_lab.py": "5e01f6ea686831e7621a31084f14f2f4ee35f32405be1fa0c71163afe5bd14a0",
+    "verification/verify.py": "6a3f7d2a50e6b6898b3e2fe821c29e0976bf2a940eadec0627963281042b79c5",
+    "SCHEMA.md": "c0faed4656bb9629a06402c305bd2010ca5cc030a04f93d95b0c65142985a4af",
+    "tests/hand-oracles.json": "9593f511aa08f4f0463d6d8dbd1437392a8c2f6634b931ec3cf24157745b9c60",
+    "verification/frozen-contract.json": "df41b217830e40dde7be97af45a93c7bd2cb7951bf216eeca39e9b51543bb640",
+    "examples/defined.json": "985a7570e8488a1303fc9f9f66844f9c975dc4680eb1f79101d711bd29ef3dd7",
+    "examples/empty.json": "750ed907d3e74eb3827fd983d58594b82c1711beae085efb7843bb88beb7492b",
+    "examples/invalid-late.json": "b63af8d0dc3d73fff85af6fcd28492781d459b61dd76c84d5e20c4c3bb6a8800",
+    "examples/mixed.json": "85b628805f4c71b29b04c5933197a3c528412f88d65f045025797dac318dd7e3"
+  }
+}

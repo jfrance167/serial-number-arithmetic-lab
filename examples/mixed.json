@@ -1,0 +1,1 @@
+{"version":1,"cases":[{"id":"half","operation":"compare","width":8,"left":0,"right":128},{"id":"limit","operation":"add","width":8,"start":0,"increment":128},{"id":"repeat","operation":"chain","width":8,"start":100,"increments":[100,100]},{"id":"stop","operation":"chain","width":8,"start":250,"increments":[5,128,1]}]}

@@ -1,0 +1,1 @@
+{"version":1,"cases":[{"id":"half","operation":"compare","width":8,"left":0,"right":128},{"id":"invalid","operation":"add","width":true,"start":0,"increment":1}]}
